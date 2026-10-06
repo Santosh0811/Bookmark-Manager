@@ -1,0 +1,220 @@
+.custom-card {
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+  background-color: #fdfcf5 !important;
+}
+
+.custom-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.logo-img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
+
+.logo-container {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.icon-actions i {
+  font-size: 1rem;
+  transition: color 0.2s ease;
+}
+
+.icon-actions i:hover {
+  opacity: 0.8;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* Navbar.css */
+.navbar-brand {
+  font-family: 'Segoe UI', sans-serif;
+  letter-spacing: 1px;
+}
+
+.modal-content {
+  border-radius: 10px;
+}
+
+.navbar-1 {
+  justify-content: end;
+}
+
+.card-5 {
+  height: 116px !important;
+}
+
+.feature-card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  transition: all .3s ease;
+  color: white;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, .25);
+}
+
+.hero-btn {
+  transition: all .3s ease;
+}
+
+.hero-btn:hover {
+  transform: translateY(-3px);
+}
+
+.hero-btn-primary {
+  border: none;
+  padding: 14px 36px;
+  border-radius: 16px;
+  font-weight: 700;
+  color: white;
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  transition: .3s;
+}
+
+.hero-btn-primary:hover {
+  transform: scale(1.05);
+}
+
+.hero-btn-secondary {
+  border: none;
+  padding: 14px 36px;
+  border-radius: 16px;
+  font-weight: 700;
+  color: white;
+  background: linear-gradient(135deg, #242424, #3d3d3d);
+  transition: .3s;
+}
+
+.hero-btn-secondary:hover {
+  transform: scale(1.05);
+}
+
+.modal-btn {
+  border: none;
+  padding: 10px 22px;
+  border-radius: 12px;
+  font-weight: 600;
+  transition: all .3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.modal-btn:hover {
+  transform: translateY(-2px);
+}
+
+.modal-btn-signup {
+  background: rgba(255, 255, 255, .08);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, .15);
+  backdrop-filter: blur(10px);
+}
+
+.modal-btn-signup:hover {
+  background: rgba(255, 255, 255, .15);
+}
+
+.modal-btn-cancel {
+  background: #252525;
+  color: #d1d5db;
+}
+
+.modal-btn-cancel:hover {
+  background: #333;
+  color: white;
+}
+
+.modal-btn-submit {
+  background: linear-gradient(135deg,
+      #6366f1,
+      #8b5cf6);
+  color: white;
+  box-shadow: 0 8px 25px rgba(99, 102, 241, .35);
+}
+
+.modal-btn-submit:hover {
+  box-shadow: 0 12px 30px rgba(99, 102, 241, .5);
+}
+
+.modal-btn-submit:disabled {
+  opacity: .5;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+@media (max-width: 575.98px) {
+  .card-1 {
+    width: 60%;
+    max-width: 100px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .navbar-1 {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-direction: column;
+  }
+
+  .navbar-collapse {
+    transition: height 0.1s ease-in !important;
+  }
+
+  .card-2 {
+    flex-direction: column;
+  }
+
+  .card-3 {
+    width: 100%;
+  }
+
+  .card-5 {
+    height: 187px !important;
+  }
+
+}
+
+/* For medium screens and up */
+@media (min-width: 800px) and (max-width: 1000px) {
+  .bookmark-1 {
+    width: 33% !important;
+  }
+
+  .navbar-1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: space-around;
+  }
+
+  .card-2 {
+    flex-direction: column;
+  }
+
+  .card-3 {
+    width: 100%;
+  }
+
+  .card-5 {
+    height: 187px !important;
+  }
+}
